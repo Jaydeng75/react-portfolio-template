@@ -1,44 +1,46 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact } from '@fortawesome/free-brands-svg-icons';
+import { faShieldHalved, faCode } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
+    "C",
+    "C++",
     "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
     "Python",
-    "SQL",
+    "PHP",
+    "Ruby",
+    "Kotlin",
+    "NestJS",
+    "Prisma",
     "PostgreSQL",
-    "Postman"
+    "Swagger/OpenAPI",
+    "HTML",
+    "CSS"
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Penetration Testing",
+    "Ethical Hacking",
+    "Vulnerability Assessment",
+    "Malware Analysis",
+    "Reverse Engineering",
+    "Firewall Configuration",
+    "IDS/IPS (Snort, Suricata, OSSEC)",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Data Structures",
+    "Algorithms",
+    "System Design",
+    "Networking",
+    "Linux Administration",
+    "Docker",
+    "Nginx",
+    "HashiCorp Tools",
 ];
 
 function Expertise() {
@@ -49,8 +51,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>Backend & Web Development</h3>
+                    <p>Experienced in building scalable applications with a focus on backend systems, databases, and robust APIs using modern tools like NestJS, Prisma, and PostgreSQL.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -60,11 +62,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faShieldHalved} size="3x"/>
+                    <h3>Cybersecurity</h3>
+                    <p>Hands-on experience in penetration testing, vulnerability assessment, and defensive security. I practice exploitation, privilege escalation, and Active Directory attacks through advanced lab environments.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Skills:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -72,9 +74,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faCode} size="3x"/>
+                    <h3>Systems & Competitive Programming</h3>
+                    <p>Strong foundation in data structures, algorithms, system design, and networking. I solve algorithmic problems competitively and work hands-on with Linux-based systems and DevOps tooling.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (

@@ -16,50 +16,50 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2026 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Consultant</h3>
+            <h4 className="vertical-timeline-element-subtitle">WorldQuant</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Quantitative finance: alpha generation and data-driven strategies.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="Jun 2026 - Jul 2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Embedded Developer Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">SpanIdea</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              VXLAN EVPN, OSPF underlay, BGP EVPN control plane, and Linux-based networking lab validation with GNS3, OpenWrt, and FRR.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2019 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Cybersecurity Practitioner</h3>
+            <h4 className="vertical-timeline-element-subtitle">Hack The Box</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Penetration testing on web applications and network systems, exploitation, privilege escalation, Active Directory attacks, and post-exploitation.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2017 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Freelance Penetration Tester</h3>
+            <h4 className="vertical-timeline-element-subtitle">Upwork</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Security assessments for international clients: vulnerability scanning, web application testing, network penetration testing, and technical reporting.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
